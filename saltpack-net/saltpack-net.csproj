@@ -6,4 +6,8 @@
 
   <Import Project="..\Rock.EmbeddedNativeLibrary\src\Rock.EmbeddedNativeLibrary.Shared.projitems" Label="Shared" />
 
+  <ItemGroup>
+    <PackageReference Include="MessagePack" Version="1.6.1.2" />
+  </ItemGroup>
+
 </Project>
