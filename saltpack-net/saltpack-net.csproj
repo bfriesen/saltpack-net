@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
+    <RootNamespace>Saltpack</RootNamespace>
   </PropertyGroup>
 
   <Import Project="..\Rock.EmbeddedNativeLibrary\src\Rock.EmbeddedNativeLibrary.Shared.projitems" Label="Shared" />
