@@ -7,6 +7,24 @@
   <Import Project="..\Rock.EmbeddedNativeLibrary\src\Rock.EmbeddedNativeLibrary.Shared.projitems" Label="Shared" />
 
   <ItemGroup>
+    <None Remove="linux-x64\native\libsodium.so" />
+    <None Remove="osx-x64\native\libsodium.dylib" />
+    <None Remove="win-x64\native\libsodium.dll" />
+    <None Remove="win-x64\native\msvcr120.dll" />
+    <None Remove="win-x86\native\libsodium.dll" />
+    <None Remove="win-x86\native\msvcr120.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="linux-x64\native\libsodium.so" />
+    <EmbeddedResource Include="osx-x64\native\libsodium.dylib" />
+    <EmbeddedResource Include="win-x64\native\libsodium.dll" />
+    <EmbeddedResource Include="win-x64\native\msvcr120.dll" />
+    <EmbeddedResource Include="win-x86\native\libsodium.dll" />
+    <EmbeddedResource Include="win-x86\native\msvcr120.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="MessagePack" Version="1.6.1.2" />
   </ItemGroup>
 
