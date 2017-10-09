@@ -2,7 +2,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace Saltpack
+namespace SaltpackDotNet
 {
     internal static class Sodium
     {

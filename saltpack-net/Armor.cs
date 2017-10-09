@@ -4,7 +4,7 @@ using System.Linq;
 using System.Numerics;
 using System.Text;
 
-namespace Saltpack
+namespace SaltpackDotNet
 {
     public static partial class Saltpack
     {
